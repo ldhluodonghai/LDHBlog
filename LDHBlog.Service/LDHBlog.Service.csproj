@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LDHBlog.IRepository\LDHBlog.IRepository.csproj" />
+    <ProjectReference Include="..\LDHBlog.IService\LDHBlog.IService.csproj" />
+    <ProjectReference Include="..\LDHBlog.Repository\LDHBlog.Repository.csproj" />
+  </ItemGroup>
+
+</Project>
